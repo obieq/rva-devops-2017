@@ -22,8 +22,8 @@ func (c *OperandsController) Add(ctx *app.AddOperandsContext) error {
 	// OperandsController_Add: start_implement
 
 	// Put your logic here
-	// sum := ctx.Left + ctx.Right
-	sum := ctx.Left * ctx.Right
+	sum := ctx.Left + ctx.Right
+	// sum := ctx.Left * ctx.Right
 
 	// OperandsController_Add: end_implement
 	return ctx.OK([]byte(strconv.Itoa(sum)))
