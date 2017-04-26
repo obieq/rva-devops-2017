@@ -5,6 +5,6 @@ ADD . /go/src/github.com/obieq/rva-devops-2017/
 
 RUN go install
 
-# web runs on 80
-EXPOSE 80
+# web runs on 8080
+EXPOSE 8080
 CMD /go/bin/rva-devops-2017
