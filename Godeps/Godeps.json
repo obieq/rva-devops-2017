@@ -1,0 +1,45 @@
+{
+	"ImportPath": "github.com/obieq/rva-devops-2017",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/armon/go-metrics",
+			"Rev": "93f237eba9b0602f3e73710416558854a81d9337"
+		},
+		{
+			"ImportPath": "github.com/dimfeld/httptreemux",
+			"Comment": "v3.8.0",
+			"Rev": "86f7c217d9043ebc6adfd8e2ed04a0bb1e1db651"
+		},
+		{
+			"ImportPath": "github.com/goadesign/goa",
+			"Comment": "v1.0.0-211-g348d0a0",
+			"Rev": "348d0a0d230b2f1c2398d63a97cd2b1941290083"
+		},
+		{
+			"ImportPath": "github.com/goadesign/goa/client",
+			"Comment": "v1.0.0-211-g348d0a0",
+			"Rev": "348d0a0d230b2f1c2398d63a97cd2b1941290083"
+		},
+		{
+			"ImportPath": "github.com/goadesign/goa/middleware",
+			"Comment": "v1.0.0-211-g348d0a0",
+			"Rev": "348d0a0d230b2f1c2398d63a97cd2b1941290083"
+		},
+		{
+			"ImportPath": "github.com/goadesign/goa/uuid",
+			"Comment": "v1.0.0-211-g348d0a0",
+			"Rev": "348d0a0d230b2f1c2398d63a97cd2b1941290083"
+		},
+		{
+			"ImportPath": "github.com/satori/go.uuid",
+			"Comment": "v1.1.0-8-g5bf94b6",
+			"Rev": "5bf94b69c6b68ee1b541973bb8e1144db23a194b"
+		},
+		{
+			"ImportPath": "golang.org/x/net/websocket",
+			"Rev": "da118f7b8e5954f39d0d2130ab35d4bf0e3cb344"
+		}
+	]
+}
